@@ -1,13 +1,20 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_round",
   "spriteId": {
     "name": "spr_round",
     "path": "sprites/spr_round/spr_round.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "abs_bullet",
+    "path": "objects/abs_bullet/abs_bullet.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,15 +27,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "created",
     "path": "folders/Objects/inventory/created.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_round",
-  "tags": [],
-  "resourceType": "GMObject",
 }

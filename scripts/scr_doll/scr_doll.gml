@@ -319,8 +319,6 @@ function doll_instance_create( _doll, _object, _spd)
 			owner = _doll;
 			angle = _angle;
 			
-			//TODO: Include some way to cancel out of defining these perhaps??
-			//maybe make it into doll_instance_create(_doll, _object, _spd/_hsp, _vsp) and have it pick by checking # of args? dunno
 			if (_spd != undefined)
 			{
 				hsp = dsin(_angle) * _spd;
@@ -377,6 +375,7 @@ function doll_firearmInstance_initialize(_owner, _sprite, _damage, _cooldown, _r
 	sprite_index = _sprite;
 	damage = _damage;
 	cooldown = _cooldown;
+	cooldownTimer = cooldown/4;
 	rounds = _rounds;
 	angle = _angle;
 	image_angle = angle;

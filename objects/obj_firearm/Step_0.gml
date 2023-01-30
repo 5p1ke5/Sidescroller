@@ -13,16 +13,25 @@ if (!instance_exists(owner))
 x = owner.x - (2 * owner.facing);
 y = owner.y;
 
-cooldown--;
-if (cooldown < 0)
+cooldownTimer--;
+if (cooldownTimer < 0)
 {
-	/*
-	Todo: code to fire a bullet
-	*/
+	var _projectile = instance_create_depth(x, y, depth, projectile);
+	var _angle = angle;
+	
+	with (_projectile)
+	{
+			hsp = dsin(_angle) * spd;
+			vsp = dcos(_angle) * spd;
+	}
 	
 	rounds--;
 	if (rounds <= 0)
 	{
 		instance_destroy();
 	}
+	
+	cooldownTimer = cooldown;
 }
+		
+	
