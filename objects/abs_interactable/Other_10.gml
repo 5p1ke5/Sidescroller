@@ -1,0 +1,1 @@
+/// @description Activated when Q or E are pressed. Should be overwritten by children.

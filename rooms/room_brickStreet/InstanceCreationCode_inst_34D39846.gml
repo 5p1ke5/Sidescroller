@@ -1,0 +1,1 @@
+transition_create(room_home, 850, 532);

@@ -1,0 +1,1 @@
+transition_create(room_brickStreet, 1582, 832);
