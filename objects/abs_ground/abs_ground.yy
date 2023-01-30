@@ -1,7 +1,11 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "abs_ground",
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,8 +28,4 @@
     "name": "blocks",
     "path": "folders/Objects/blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "abs_ground",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_oneWay",
   "spriteId": {
     "name": "spr_oneWay",
     "path": "sprites/spr_oneWay/spr_oneWay.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "blocks",
     "path": "folders/Objects/blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_oneWay",
-  "tags": [],
-  "resourceType": "GMObject",
 }

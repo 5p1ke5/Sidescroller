@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_sound_confirm",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.08,
   "preload": false,
@@ -16,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_sound_confirm",
-  "tags": [],
-  "resourceType": "GMSound",
 }
