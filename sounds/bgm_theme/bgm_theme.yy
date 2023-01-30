@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "bgm_theme",
+  "conversionMode": 0,
   "compression": 3,
   "volume": 0.05,
   "preload": false,
@@ -16,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bgm_theme",
-  "tags": [],
-  "resourceType": "GMSound",
 }

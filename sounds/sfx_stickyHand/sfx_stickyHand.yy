@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_stickyHand",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.12,
   "preload": false,
@@ -16,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_stickyHand",
-  "tags": [],
-  "resourceType": "GMSound",
 }

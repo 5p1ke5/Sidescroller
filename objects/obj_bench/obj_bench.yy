@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bench",
   "spriteId": {
     "name": "spr_bench",
     "path": "sprites/spr_bench/spr_bench.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "pickup",
     "path": "folders/Objects/world/pickup.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bench",
-  "tags": [],
-  "resourceType": "GMObject",
 }
