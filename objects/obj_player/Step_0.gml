@@ -10,7 +10,8 @@ if !instance_exists(myHeld)
 
 	if(MOUSE_LEFT_BUTTON_RELEASED)
 	{
-		angle = point_direction(x, y, mouse_x, mouse_y) + 90;
+		angle = point_direction(x, y, mouse_x, mouse_y);
+		show_debug_message("Angle: {0}", angle);
 	
 		if (ds_list_size(global.inventory) > 0)
 		{
