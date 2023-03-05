@@ -21,8 +21,8 @@ if (cooldownTimer < 0)
 	
 	with (_projectile)
 	{
-			hsp = dcos(_angle) * spd;
-			vsp = dsin(_angle) * spd;
+			hsp = dsin(_angle + 90) * spd;
+			vsp = dcos(_angle + 90) * spd;
 	}
 	
 	rounds--;

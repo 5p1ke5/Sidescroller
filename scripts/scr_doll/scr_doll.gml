@@ -232,7 +232,7 @@ function doll_draw()
 		
 	if (angle != -1)
 	{
-		draw_sprite_ext(spr_dollArmACast, image_index, x - (2 * facing), y, image_xscale, image_yscale, angle, skinColor, image_alpha);
+		draw_sprite_ext(spr_dollArmACast, image_index, x - (2 * facing), y, image_xscale * facing, image_yscale, angle, skinColor, image_alpha);
 		draw_sprite_ext(sleevesASprite, image_index, x, y, image_xscale, image_yscale, angle, sleevesColor, image_alpha);
 	}
 	else
@@ -379,6 +379,7 @@ function doll_firearmInstance_initialize(_owner, _sprite, _damage, _cooldown, _r
 	rounds = _rounds;
 	angle = _angle;
 	image_angle = angle;
+	image_yscale = owner.facing;
 	
 	projectile = _projectile;
 }
